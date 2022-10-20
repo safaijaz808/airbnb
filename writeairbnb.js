@@ -1,6 +1,6 @@
 const MongoClient  = require ("mongodb").MongoClient;
 // Replace the uri string with your MongoDB deployment's connection string.
-const uri = "mongodb+srv://safa3272:Ribosomes3272!@cluster0.paykpbc.mongodb.net/sample_airbnb";
+const uri = "your connection string here";
 const client = new MongoClient(uri);
 
 //here we are reading a document from a sample database that we have loaded into our cluster
