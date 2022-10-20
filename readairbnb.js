@@ -1,6 +1,6 @@
 const MongoClient  = require ('mongodb').MongoClient;
 // Replace the uri string with your MongoDB deployment's connection string.
-const uri = "mongodb+srv://safa3272:Ribosomes3272!@cluster0.paykpbc.mongodb.net/sample_analytics-";
+const uri = "your connection string here";
 const client = new MongoClient(uri);
 async function readData() {
   try {
